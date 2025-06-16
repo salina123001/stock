@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+#palette {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.palette-item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.palette-item.selected {
+  border-color: #000;
+}
+
+#braceletCanvas {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact {
+  margin-top: 15px;
+}
